@@ -8,5 +8,6 @@ $(document).ready(function() {
             css3: true,
             scrollingSpeed: 555,
             navigation: true,
+
     });
 });

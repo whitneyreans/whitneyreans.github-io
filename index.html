@@ -8,50 +8,55 @@
 	<link href="styles/styles.css" rel="stylesheet">
 	<link href="styles/jquery.fullPage.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300|Raleway|Dosis|Oxygen|Fjalla+One|Unica+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div id="bg"></div>
-	<div id="particles"></div>
 	<div id="nav-menu">
 		<ul>
-			<li>
+			<li data-menuanchor="hello">
 				<a href="#hello"><span>hello</span></a>
 			</li>
-			<li>
+			<li data-menuanchor="work">
 				<a href="#work"><span>work</span></a>
 			</li>
-			<li>
+			<li data-menuanchor="contact">
 				<a href="#contact"><span>contact</span></a>
 			</li>
 		</ul>
 	</div>
-
 	<div id="fullpage">
-		<div class="fp-section">
+		<div class="section" data-anchor="hello">
 			<div class="container">
 				<h5>Hello_</h5>
 
 				<h2>Hello, my name is Whitney Reans and I am a web developer. My passion is building websites that get the job done and look good doing it.  </h2>
 
-				<h4>I currently live in Portland, OR, where I have begun my journey into programming. You can peep my resume <a href="#">here</a></h4>
+				<h4>I currently live in Portland, OR, where I have begun my journey into programming. You can peep my resume <a href="#">here.</a></h4>
 			</div>
 		</div>
 
-		<div class="fp-section">
+		<div class="section" data-anchor="work">
 			<div class="container">
 				<h5>Work_</h5>
 
 				<h2>Since January of 2015, I have immersed myself in a multitude of programming languages and tools, starting with JavaScript and JQuery, to Ruby and Rails, and finally to Python and Django.</h2>
 
-				<h4>As a kid, I taught myself HTML and CSS to build simple, fun websites in my freetime. As an adult, my passion has grown to become my career. I attended Epicodus, a coding bootcamp that has laid the groundwork for my programming experience. There, I learned Ruby on Rails, JavaScript, and a number of other useful tools and concepts. From there, to my internship at a local software consultancy, I began my relationship with Python and Shopify, and obtained real experience being a part of a team and contributing to live projects. You can find examples of my work on my github <a href="#">here</a></h4>
+				<h4>As a kid, I taught myself HTML and CSS to build simple, fun websites in my freetime. As an adult, my passion has grown to become my career. I attended Epicodus, a coding bootcamp that has laid the groundwork for my programming experience. There, I learned Ruby on Rails, JavaScript, and a number of other useful tools and concepts. From there, to my internship at a local software consultancy, I began my relationship with Python and Shopify, and obtained real experience being a part of a team and contributing to live projects. You can find examples of my work on my Github <a href="#">here.</a></h4>
 			</div>
 		</div>
 
-		<div class="fp-section">
+		<div class="section" data-anchor="contact">
 			<div class="container">
 				<h5>Contact_</h5>
 
 				<h2>If you have a project you would like to get me involved in, are looking for a new member of your team, or just want to chat - please say hello! </h2>
+
+				<h4>I am available for freelancing.</h4>
+				<div class="social">
+					<a href="mailto:wreans@yahoo.com"><i class="fa fa-envelope fa-1"></i></a>
+					<a href="https://www.linkedin.com/in/whitneyreans"><i class="fa fa-linkedin fa-1"></i></a>
+					<a href="https://www.github.com/whitneyreans"><i class="fa fa-github fa-1"></i></a>
+				</div>
 					
 			</div>
 		</div>
