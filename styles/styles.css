@@ -6,3 +6,32 @@ html {
 	background-size: cover;;
 }
 
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+h5, h2, h4 {
+	text-transform: uppercase;
+}
+h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.container {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30%;
+}
+
+#nav-menu {
+
+}
