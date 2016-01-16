@@ -106,4 +106,12 @@ h4 {
 	#nav-menu {
 		font-size: 200%;
 	}
+
+	#work-container {
+		width: 65%;
+	}
+
+	#work-container h5 {
+		font-size: 170%;
+	}
 }
