@@ -6,6 +6,11 @@ html {
 	background-size: cover;;
 }
 
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
 ul {
 	text-decoration: none;
 	list-style: none;
@@ -13,7 +18,7 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #F1F1F1;
 }
 
 a:hover {
@@ -32,13 +37,13 @@ h5 {
 
 h2 {
 	font-family: 'Unica One', sans-serif;
-	color: #fff;
+	color: #F1F1F1;
 	font-size: 156%;
 }
 
 h4 {
 	font-family: 'Dosis', sans-serif;
-	color: #fff;
+	color: #F1F1F1;
 	font-size: 106.3%;
 }
 
@@ -55,7 +60,7 @@ h4 {
 }
 
 .container a:hover {
-	color: #fff;
+	color: #F1F1F1;
 }
 
 #nav-menu {
